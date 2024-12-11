@@ -20,8 +20,8 @@ client.on('messageCreate', async (message) => {
 
         if (message.content.trim() === botMention) {
             const embed = new EmbedBuilder()
-            .setTitle('Hello there!')
-            .setDescription('This is my  Discord.js Bot!');
+            .setTitle('Ay yo')
+            .setDescription('Bot cua bo may');
 
         console.log('Sending reply for mention:', message.content);
 
